@@ -1,0 +1,144 @@
+<html>
+
+<head>
+    <title>Form</title>
+</head>
+<style>
+    .head {
+        height: 700px;
+        width: auto;
+        border: 0px solid;
+        background-color: lightgray;
+    }
+
+    .nav {
+        height: 100px;
+        width: auto;
+        border: 0px solid;
+        background-color: #6F1E51;
+    }
+
+    .aside {
+        height: 600px;
+        width: 10%;
+        border: 0px solid;
+        float: left;
+        background-color: #f0932b;
+    }
+
+    .a {
+        margin: 30px;
+        font-size: 20px;
+        color: #fff;
+        float: left;
+        text-decoration: none;
+    }
+
+    .Form {
+        height: 550px;
+        width: 84%;
+        border: 0px solid;
+        float: right;
+        margin: 20px;
+        background-color: lightgray;
+    }
+
+    .form-1 {
+        height: 450px;
+        width: 55%;
+        border: 0px solid;
+        margin-top: 50px;
+        background-color: #b71540;
+    }
+
+    #input {
+        width: 120%;
+        padding: 8px;
+        margin-right: 20px;
+        font-size: 14px;
+    }
+
+    .btn {
+        padding: 10px;
+        width: 25%;
+        margin-left: 40px;
+        font-size: 18px;
+        background-color: orange;
+        color: #fff;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    .footer {
+        height: 100px;
+        width: auto;
+        border: 1px solid;
+        background-color: maroon;
+    }
+
+    h1 {
+        color: #fff;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <div class="head">
+        <div class="nav">
+            <a href="#" class="a">Home</a>
+            <a href="#" class="a">About</a>
+            <a href="#" class="a">Services</a>
+            <a href="#" class="a">Gallery</a>
+            <a href="#" class="a">Contact</a>
+            <a href="#" class="a">Logout</a>
+        </div>
+        <div class="aside"></div>
+        <div class="Form">
+            <center>
+                <div class="form-1">
+                    <table cellpadding="10px"><br>
+                        <form action="form.html" method="post" autocomplete="on">
+                            <tr>
+                                <td>
+                                    <input type="text" name="name" id="input" placeholder=" First Name" autofocus="on">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="text" name="name" id="input" placeholder=" Middle Name">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="text" name="name" id="input" placeholder=" Last Name">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="email" name="email" id="input" placeholder=" Email Address">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="password" name="Password" id="input" placeholder=" Password">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="tel" name="phone" id="input" placeholder="Mobile No">
+                                </td>
+                            </tr>
+                    </table><br>
+                    <button type="submit" value="Submit" class="btn">Submit</button>
+            </center>
+            </form>
+        </div>
+    </div>
+    </div>
+    <footer class="footer">
+        <h1> All Right Reserved..</h1>
+    </footer>
+</body>
+
+</html>
